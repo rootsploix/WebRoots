@@ -1,0 +1,39 @@
+# Rootsploix Professional Tools Requirements
+# Essential packages for cybersecurity tools
+
+# Network and HTTP
+requests>=2.28.0
+urllib3>=1.26.0
+socket
+
+# Threading and concurrency
+threading
+concurrent.futures
+
+# Data processing
+json
+argparse
+datetime
+time
+sys
+os
+hashlib
+hmac
+
+# Optional advanced features (Professional license)
+cryptography>=37.0.0
+paramiko>=2.11.0
+scapy>=2.4.5
+nmap>=3.0.0
+beautifulsoup4>=4.11.0
+lxml>=4.9.0
+
+# Reporting and output
+colorama>=0.4.5
+rich>=12.0.0
+tabulate>=0.8.10
+
+# Professional analytics (Enterprise)
+pandas>=1.5.0
+numpy>=1.23.0
+matplotlib>=3.5.0
